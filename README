@@ -1,0 +1,31 @@
+EV-Stream-Proxy-HTTPS version 1.0.0
+
+This module is plugin for EV::Stream which allow you to route stream
+through HTTPS (also called CONNECT) proxy.
+
+You may use several EV::Stream::Proxy::HTTPS plugins for single EV::Stream
+object, effectively creating proxy chain (first proxy plugin will define
+last proxy in a chain).
+
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Makefile.PL
+	make
+	make test
+	make install
+
+
+DEPENDENCIES
+
+EV::Stream
+
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2008, Alex Efros
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
